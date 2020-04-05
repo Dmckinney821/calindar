@@ -1,0 +1,20 @@
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAXPny8G4CSVTehPcACSH-PapliLxNT_bQ",
+    authDomain: "vue-cal-30482.firebaseapp.com",
+    databaseURL: "https://vue-cal-30482.firebaseio.com",
+    projectId: "vue-cal-30482",
+    storageBucket: "vue-cal-30482.appspot.com",
+    messagingSenderId: "597221213112",
+    appId: "1:597221213112:web:2c76e040fd482e5ef6454d"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
